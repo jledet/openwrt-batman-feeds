@@ -1,0 +1,8 @@
+
+config KMOD_BATMAN_ADV_DEVEL_DEBUG_LOG
+	bool "enable verbose debug logging"
+	depends PACKAGE_kmod-batman-adv-devel
+	default n
+	help
+	  Compile the batman-adv module with debugging enabled
+

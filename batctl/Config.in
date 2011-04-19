@@ -1,0 +1,9 @@
+
+config KMOD_BATMAN_ADV_DEVEL_BATCTL
+	bool "enable batctl"
+	depends PACKAGE_kmod-batman-adv-devel
+	default y
+	help
+	  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+	  It is an easier method for configuring batman-adv and
+	  provides some additional tools for debugging as well.
