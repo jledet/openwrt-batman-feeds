@@ -48,7 +48,7 @@ MAKE_BATMAN_ADV_ARGS += \
 
 define Build/Prepare
 	mkdir -p $(PKG_BUILD_DIR)
-	$(CP) ../../catwoman/* $(PKG_BUILD_DIR)/
+	$(CP) ../../batman-adv/* $(PKG_BUILD_DIR)/
 endef
 
 define Build/Compile
